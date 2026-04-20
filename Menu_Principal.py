@@ -34,6 +34,7 @@ except ImportError:
 
 def main():
     ventas = []  # Lista para almacenar ventas 
+      while True:
         opcion = mostrar_menu()
         if opcion == "1":
             agregar_venta(ventas)

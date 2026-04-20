@@ -7,7 +7,7 @@ def mostrar_menu():
     print("5. Salir")
     return input("Selecciona una opción: ")
 
-# Modulos de ventas
+# Intentar importar funciones de otros módulos (subidos por otros usuarios)
 try:
     from agregar_venta import agregar_venta
 except ImportError:
@@ -18,23 +18,23 @@ try:
     from ver_ventas import ver_ventas
 except ImportError:
     def ver_ventas(ventas):
-        print("Módulo 'ver_ventas' no disponible. Función no implementada.")
+        print("Módulo 'ver_ventas' no disponible.")
 
 try:
     from eliminar_venta import eliminar_venta
 except ImportError:
     def eliminar_venta(ventas):
-        print("Módulo 'eliminar_venta' no disponible. Función no implementada.")
+        print("Módulo 'eliminar_venta' no disponible.")
 
 try:
     from calcular_total import calcular_total
 except ImportError:
     def calcular_total(ventas):
-        print("Módulo 'calcular_total' no disponible. Función no implementada.")
+        print("Módulo 'calcular_total' no disponible.")
 
 def main():
-    ventas = []  # Lista para almacenar ventas 
-      while True:
+    ventas = []  # Lista para almacenar ventas
+    while True:
         opcion = mostrar_menu()
         if opcion == "1":
             agregar_venta(ventas)

@@ -53,3 +53,8 @@ Al ejecutar `Menu_Principal.py`, se mostrará el menú principal con las siguien
 - `eliminar_venta.py`: Módulo para eliminar ventas específicas.
 - `calcular_total.py`: Módulo para calcular el total de ventas.
 - `README.md`: Este archivo de documentación.
+
+## Aportes de Integrantes
+ - Milagros Lamas Modulos agregar_venta, ver_ventas, code review y merge approval
+ - Sofia Ramos calcular_total, README.md, code review
+ - Damián Marengo Menu_Principal, eliminar_ventas, code review, merge approval, creación de repositorio principal

@@ -1,13 +1,13 @@
 def mostrar_menu():
     print("\n=== Menú Principal de Ventas ===")
-    print("1. Agregar venta")
+    print("1. Agregar ventas")
     print("2. Ver ventas")
-    print("3. Eliminar venta")
+    print("3. Eliminar ventas")
     print("4. Calcular total de ventas")
     print("5. Salir")
     return input("Selecciona una opción: ")
 
-# Intentar importar funciones de otros módulos (subidos por otros usuarios)
+# Intentar importar funciones de otros módulos catch and try
 try:
     from agregar_venta import agregar_venta
 except ImportError:
